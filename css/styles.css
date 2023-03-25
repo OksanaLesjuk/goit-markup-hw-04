@@ -170,6 +170,8 @@ nav {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-size: cover;
 }
 .main-title {
   margin-bottom: 48px;
@@ -274,6 +276,11 @@ nav {
 .team-item-text {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+/* ` */
+}
+.social-list-icon{
+  fill:  #4D5AE5;
 }
 
 /* ==========футер======== */
