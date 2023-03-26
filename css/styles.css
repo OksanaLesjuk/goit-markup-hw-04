@@ -230,7 +230,13 @@ nav {
   max-width: 264px;
 }
 
-
+.privilege-title::before{
+  content: "1";
+  display: block;
+  margin-bottom: 8px;
+  background: var(--background-section-color);
+border-radius: 4%;
+}
 
 /* ----/переваги компанії---- */
 
@@ -263,34 +269,62 @@ nav {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
+  gap: 24px;
 }
 .team-list-item {
   text-align: center;
   /* width: 264px;  */
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc ((100%-72px) / 4);
+  background-color: #ffffff;
 }
 .team-list-item:nth-child(4n) {
   margin-right: 0;
 }
 .team-item-text {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
+
 }
-/* ` */
+.team-text{
+  margin-bottom: 8px;
 }
+.social-list{
+  display: flex;
+  align-content: center;
+  justify-content: center ;
+  gap: 24px;
+}
+.social-list-item{
+ padding: 12px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-color: transparent;
+  background-color:  #4D5AE5;
+}
+
+
+
+.social-list-item:hover,
+.social-list-item:focus{
+  background-color: #31D0AA;
+}
+
 .social-list-icon{
-  fill:  #4D5AE5;
+  /* fill:  #4D5AE5; */
+
 }
 
 /* ==========футер======== */
-.footer-container {
+.footer{
+
   padding: 100px 0;
   /* color: #e7e9fc; */
   background-color: #2e2f42;
  
 }
-
+.footer-container{
+  display: flex;
+}
 .footer-logo {
   display: block;
   margin-bottom: 16px;
@@ -305,7 +339,9 @@ nav {
   text-transform: uppercase;
   border: none;
 }
-
+.footer-appeal{
+  margin-right: 120px;
+}
 .logo-thema-dark {
   color: #f4f4fd;
 }
@@ -315,6 +351,14 @@ nav {
   color: var(--text-thema-dark-color);
 }
 
+.footer-social-title{
+  font-weight: 500px;
+  color: var(--text-thema-dark-color);
+  margin-bottom: 16px;
+}
+.footer-social{
+  width: 208px;
+}
 /* =========2 сторінка  ========*/
 .portfolio-section{
   padding: 61px 0;
