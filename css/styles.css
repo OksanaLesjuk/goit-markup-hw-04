@@ -173,6 +173,8 @@ nav {
   padding-bottom: 188px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .main-title {
   margin-bottom: 48px;
@@ -299,6 +301,7 @@ border-radius: 4%;
   gap: 24px;
 }
 .social-list-link{
+
   display: flex;
 justify-content: center;
 align-items: center;
