@@ -312,10 +312,10 @@ align-items: center;
   background-color:  var(--accent-color);
 }
 
-/* .social-list-link:hover,
+.social-list-link:hover,
 .social-list-link:focus{
-  background-color: #31D0AA;
-} */
+  background-color: var(--nav-accent-color);
+}
 
 .social-list-icon{
   fill:  var(--background-section-color);
@@ -401,6 +401,11 @@ fill:#8E8F99;}
 .footer-social{
   width: 208px;
 }
+ .footer-social-list{
+  display: flex;
+  align-content: center;
+  gap: 24px;
+}
 .footer-link:hover,.footer-link:focus{
   background-color: #31D0AA;
 }
@@ -409,7 +414,7 @@ fill:#8E8F99;}
 
 /* =========2 сторінка  ========*/
 .portfolio-section{
-  padding: 61px 0;
+  padding: 96px 0px 120px 0px;
 }
 .filter-list {
   display: flex;
